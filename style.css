@@ -1,0 +1,42 @@
+body
+{
+    font-family: 'segeo ui light' ;
+}
+.parent
+{
+    background: rgb(42, 125, 163);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    color:#fff;
+    padding: 20px;
+}
+.child
+{
+    background-color: rgb(42, 125, 163);
+    padding: 20px;
+    box-shadow: 10px 10px 100px #2c5166;
+    width: 55%;
+}
+.child h1
+{
+    margin-bottom: 20px;
+}
+.child input,.child textarea,select
+{
+    background-color: transparent;
+    color: rgb(248, 245, 245,0.8);
+    text-indent: 10px;
+}
+form input[type="text"], form input[type="submit"],form textarea, form input[type="password"],select
+{
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 9px 0px;
+}
+input::placeholder ,textarea::placeholder,select
+{
+    color:#ced4da;
+}
